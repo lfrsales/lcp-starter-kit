@@ -1,0 +1,45 @@
+{
+  "kind": "StatefulSet",
+  "id": "ci",
+  "image": "liferaycloud/jenkins:2.249.3-4.1.0",
+  "deploy": false,
+  "memory": 8192,
+  "cpu": 4,
+  "scale": 1,
+  "volumes": {
+    "ciData": "/var/jenkins_home"
+  },
+  "loadBalancer": {
+    "targetPort": 8080
+  },
+  "readinessProbe": {
+    "httpGet": {
+      "path": "/login",
+      "port": 8080
+    },
+    "initialDelaySeconds": 60,
+    "timeoutSeconds": 10,
+    "failureThreshold": 12
+  },
+  "livenessProbe": {
+    "httpGet": {
+      "path": "/login",
+      "port": 8080
+    },
+    "initialDelaySeconds": 300,
+    "timeoutSeconds": 10,
+    "failureThreshold": 12
+  },
+  "env": {
+    "JENKINS_ADMIN_USER_NAME": "lctstartertest2",
+    "JENKINS_EMAIL_NOTIFICATIONS_FROM": "Jenkins CI - lctstartertest2 <lctstartertest2@liferay.com>",
+    "JENKINS_URL": "https://ci-lctstartertest2-infra.lfr.cloud",
+    "LCP_CI_SCM_REPOSITORY_NAME": "lctstartertest2",
+    "LCP_CI_SCM_REPOSITORY_OWNER": "dxpcloud"
+  },
+  "environments": {
+    "infra": {
+      "deploy": true
+    }
+  }
+}
