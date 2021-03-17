@@ -1,8 +1,8 @@
 TMPDIR=/tmp/deploy
 DEPLOYDIR=/opt/liferay/deploy
-​
+
 mkdir -p $TMPDIR
-​
+
 ### Add Modules to be Deployed Here: ###
 
 modules=(
@@ -43,5 +43,5 @@ cd $TMPDIR
 for module in ${modules[@]}; do
   (curl --location --remote-name $module)
 done
-​
+
 mv $TMPDIR/* $DEPLOYDIR
