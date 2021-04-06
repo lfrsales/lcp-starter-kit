@@ -7,7 +7,7 @@ After cloning your DXP Cloud git repo locally, run the following command from th
 ```
 git remote add starter-pack git@github.com:lfrsales/lcp-starter-kit.git \
 	&& git fetch starter-pack master \
-	&& git cherry-pick 9b10dda^..1360c78 \
+	&& git cherry-pick 9b10dda^..starter-pack/master \
 	&& git push origin master
 ```
 
