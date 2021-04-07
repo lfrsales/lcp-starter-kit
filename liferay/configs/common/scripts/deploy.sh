@@ -12,7 +12,7 @@ modules=(
 	"https://github.com/jverweijL/Markdown/releases/latest/download/markdowntemplatecontextcontributor-1.0.0.jar"
 	"https://github.com/jverweijL/QRgenerator/releases/latest/download/com.liferay.demo.qr.qrcode-1.0.0.jar"
 	"https://github.com/jverweijL/UserDocumentUploadPortlet/releases/latest/download/userdocumentupload-1.0.0.jar"
-	"https://github.com/jverweijL/UserRatedItems/releases/latest/download/UserRatedAssetsInfoListProvider-1.0.0.jar"
+	"https://github.com/jverweijL/UserRatedItems/releases/download/v0.0.1/UserRatedAssetsInfoListProvider-1.0.0.jar"
 	"https://github.com/jverweijL/WeatherContextContributor/releases/latest/download/weathercontextcontributor-1.0.0.jar"
 	"https://github.com/jverweijL/custom-rest-api/releases/latest/download/custom.rest.api-1.0.0.jar"
 	"https://github.com/jverweijL/dbwidget/releases/latest/download/com.liferay.demo.db.api-1.0.0.jar"
