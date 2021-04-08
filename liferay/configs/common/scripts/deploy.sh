@@ -24,7 +24,8 @@ modules=(
 	"https://github.com/jverweijL/spaceship-react/releases/latest/download/spaceship-0.1.0.jar"
 	"https://github.com/lfrsales/73-formed-theme/releases/latest/download/73-formed-theme.war"
 	"https://github.com/lfrsales/article-service-template-context-contributor/releases/latest/download/com.liferay.demo.asset.article.service.template.context.contributor-1.0.0.jar"
-	"https://github.com/lfrsales/character-limited-text-input-ddm-form-field/releases/latest/download/com.liferay.dynamic.data.mapping.form.field.type.internal.character.limited.text-1.0.0.jar"
+	"https://github.com/lfrsales/custom-liferay-ddm-form-fields/releases/latest/download/com.liferay.dynamic.data.mapping.form.field.type.internal.character.limited.text-1.0.0.jar"
+	"https://github.com/lfrsales/custom-liferay-ddm-form-fields/releases/latest/download/com.liferay.dynamic.data.mapping.form.field.type.internal.userdata.field-1.0.0.jar"
 	"https://github.com/lfrsales/demo-fragment-collections/releases/latest/download/billboard.theme.contributor-1.0.0.jar"
 	"https://github.com/lfrsales/demo-fragment-collections/releases/latest/download/com.liferay.fragment.collection.contributor.billboard-1.0.0.jar"
 	"https://github.com/lfrsales/demo-fragment-collections/releases/latest/download/com.liferay.fragment.collection.contributor.formed.components-1.0.0.jar"
@@ -35,7 +36,6 @@ modules=(
 	"https://github.com/lfrsales/demo-fragment-collections/releases/latest/download/d3.theme.contributor-1.0.0.jar"
 	"https://github.com/lfrsales/site-se-site-initializer/releases/latest/download/com.liferay.site.se.site.initializer-1.0.0.jar"
 	"https://github.com/lfrsales/toggle-control-menu-personal-menu-entry/releases/latest/download/com.liferay.users.admin.web.internal.product.navigation.personal.menu.toggle.control.menu-1.0.0.jar"
-	"https://github.com/martin-dominguez/liferay-modules/releases/latest/download/com.liferay.dynamic.data.mapping.form.field.type.internal.userdata.field-1.0.0.jar"
 )
 
 cd $TMPDIR
