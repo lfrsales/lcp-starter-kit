@@ -23,6 +23,7 @@ modules=(
 	"https://github.com/jverweijL/notifications-workflow-wrapper/releases/latest/download/notifications.wrapper-1.0.0.jar"
 	"https://github.com/jverweijL/spaceship-react/releases/latest/download/spaceship-0.1.0.jar"
 	"https://github.com/lfrsales/73-formed-theme/releases/latest/download/73-formed-theme.war"
+	"https://github.com/lfrsales/api-gui/releases/latest/download/api.gui-1.0.0.jar"
 	"https://github.com/lfrsales/article-service-template-context-contributor/releases/latest/download/com.liferay.demo.asset.article.service.template.context.contributor-1.0.0.jar"
 	"https://github.com/lfrsales/custom-liferay-ddm-form-fields/releases/latest/download/com.liferay.dynamic.data.mapping.form.field.type.internal.character.limited.text-1.0.0.jar"
 	"https://github.com/lfrsales/custom-liferay-ddm-form-fields/releases/latest/download/com.liferay.dynamic.data.mapping.form.field.type.internal.userdata.field-1.0.0.jar"
