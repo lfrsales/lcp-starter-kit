@@ -35,6 +35,9 @@ modules=(
 	"https://github.com/lfrsales/demo-fragment-collections/releases/latest/download/com.liferay.fragment.collection.contributor.integrations.jar"
 	"https://github.com/lfrsales/demo-fragment-collections/releases/latest/download/com.liferay.fragment.collection.contributor.utilities.jar"
 	"https://github.com/lfrsales/demo-fragment-collections/releases/latest/download/d3.theme.contributor.jar"
+	"https://github.com/lfrsales/onboarding-forms/releases/latest/download/com.liferay.form.onboarding.api.jar"
+	"https://github.com/lfrsales/onboarding-forms/releases/latest/download/com.liferay.form.onboarding.service.jar"
+	"https://github.com/lfrsales/onboarding-forms/releases/latest/download/com.liferay.onboarding.form.web.jar"
 	"https://github.com/lfrsales/site-se-site-initializer/releases/latest/download/com.liferay.site.se.site.initializer-1.0.0.jar"
 	"https://github.com/lfrsales/toggle-control-menu-personal-menu-entry/releases/latest/download/com.liferay.users.admin.web.internal.product.navigation.personal.menu.toggle.control.menu-1.0.0.jar"
 )
